@@ -1,0 +1,104 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+.header {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.logoimg {
+    float: left;
+    margin: 0;
+    width: 25%;
+}
+.logotext {
+    float: right;
+    margin-right: 100px;
+}
+#left {
+    margin-left: -10px;
+}
+.iconbar {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+}
+.icon {
+    float: right;
+}
+.menubar {
+    margin: 0;
+    padding: 0;
+}
+.menubar ul li {
+    display: inline-block;
+    list-style: outside none none;
+    padding: 10px;
+}
+.slider {
+    height: 360px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 960px;
+}
+.slider img {
+    height: 360px;
+    position: absolute;
+    width: 960px;
+}
+.sliderone img {
+    bottom: -30px;
+    height: 260px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    width: 400px;
+}
+.slider_text {
+    color: gray;
+    padding: 0;
+    text-align: center;
+    width: 960px;
+}
+.bottom {
+    background-color: chocolate;
+    box-sizing: border-box;
+    height: 100px;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 30px;
+}
+.bottom_text {
+    float: left;
+}
+.bottom button {
+    background-color: none;
+    float: right;
+}
+.button {
+    background-color: green;
+    padding: 10px;
+}
+.footer {
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 0;
+    width: 100%;
+}
+.copyright {
+    float: left;
+}
+.footermenubar {
+    float: right;
+}
+.footermenubar ul li {
+    display: inline-block;
+    list-style: outside none none;
+}
